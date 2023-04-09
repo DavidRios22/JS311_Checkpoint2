@@ -14,12 +14,12 @@
 
 ## Tables, Fields, and Relationships
 
-|habits                |<----|users                      |---->|weight        |
-|----------------------|     |---------------------------|     |--------------|
-|id                 int|     |id                      int|     |id         int|
-|user_id            int|     |username        varchar(50)|     |user_id    int|
-|habit_name varchar(50)|     |password_hash varchar(1000)|     |weigh_in  date|
-|completed       bit(1)|     |first_name     varchar(100)|     |weight_lbs int|
+| habits                 | <---- | users                       | ----> | weight         |
+| ---------------------- |       | --------------------------- |       | -------------- |
+| id                 int |       | id                      int |       | id         int |
+| user_id            int |       | username        varchar(50) |       | user_id    int |
+| habit_name varchar(50) |       | password_hash varchar(1000) |       | weigh_in  date |
+| completed       bit(1) |       | first_name     varchar(100) |       | weight_lbs int |
 
 
 ## Steps to create DB on GCP Instance, How to connect to it with Workbench, and how to seed it with data
