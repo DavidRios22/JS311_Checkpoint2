@@ -14,7 +14,7 @@
 
 ## Tables, Fields, and Relationships
 
-| habits                 | <--- | users                       | ---> | weight         |
+| habits                 | <--  | users                       | -->  | weight         |
 | ---------------------- | ---- | --------------------------- | ---- | -------------- |
 | id                 int |      | id                      int |      | id         int |
 | user_id            int |      | username        varchar(50) |      | user_id    int |
